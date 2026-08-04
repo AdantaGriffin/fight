@@ -1,0 +1,24 @@
+.rankings{
+    min-height: 100vh;
+
+    .rankingsList{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+        li{
+            padding: 20px 0;
+        }
+        .rankingWeight{
+            border: 1px solid black;
+
+            .rankingClassChamp{
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+}

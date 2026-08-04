@@ -1,0 +1,749 @@
+{
+    "athletes":[
+        {
+            "id": "00001",
+            "status": "",
+            "name": "AyeGee",
+            "age": "",
+            "height": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "Bones",
+                    "outcome": "win",
+                    "method": "knock out",
+                    "event": "QFC",
+                    "time": ""
+                },
+                {
+                    "opponent": "?",
+                    "outcome": "win",
+                    "method": "decision",
+                    "event": "QFC",
+                    "time": ""
+                },
+                {
+                    "opponent": "Spenzo",
+                    "outcome": "loss",
+                    "method": "TKO",
+                    "event": "Knuckle Up",
+                    "time": ""
+                },
+                {
+                    "opponent": "Banks",
+                    "outcome": "win",
+                    "method": "tko",
+                    "event": "Aight Bet",
+                    "time": ""
+                },
+                {
+                    "opponent": "Haze Un",
+                    "outcome": "win",
+                    "method": "tko",
+                    "event": "Aight Bet",
+                    "time": ""
+                },
+                {
+                    "opponent": "5AM",
+                    "outcome": "loss",
+                    "method": "decision",
+                    "event": "Aight Bet",
+                    "time": ""
+                },
+                {
+                    "opponent": "Money Steve",
+                    "outcome": "loss",
+                    "method": "tko",
+                    "event": "QFC",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00002",
+            "status": "",
+            "name": "Splambino",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00003",
+            "status": "",
+            "name": "Eye Shoot Killas",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00004",
+            "status": "",
+            "name": "Ramos",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00005",
+            "status": "",
+            "name": "Rah King",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00006",
+            "status": "",
+            "name": "Mike Frost",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00007",
+            "status": "",
+            "name": "GKB",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00008",
+            "status": "",
+            "name": "Asian Sweet Boy",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00009",
+            "status": "",
+            "name": "Eric Schneider",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "0010",
+            "status": "",
+            "name": "Cosmo",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00011",
+            "status": "",
+            "name": "Spenzo",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00012",
+            "status": "",
+            "name": "Fresh Prince",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00013",
+            "status": "",
+            "name": "Buddah",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00014",
+            "status": "",
+            "name": "Savage",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00015",
+            "status": "",
+            "name": "El Savaje",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00016",
+            "status": "",
+            "name": "Blood Staine",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00017",
+            "status": "",
+            "name": "Drunken Master",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00018",
+            "status": "",
+            "name": "Really Tony Tho",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00019",
+            "status": "",
+            "name": "Carlito",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00020",
+            "status": "",
+            "name": "Mikey Got Hands",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00021",
+            "status": "",
+            "name": "Haze Un",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00022",
+            "status": "",
+            "name": "Tush",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00023",
+            "status": "",
+            "name": "Money L",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00024",
+            "status": "Prid of Sparta",
+            "name": "",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00025",
+            "status": "",
+            "name": "Money Steve",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00026",
+            "status": "",
+            "name": "Get Cha Paper",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00027",
+            "status": "",
+            "name": "Lefty",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00028",
+            "status": "",
+            "name": "94 Rugged RAw",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00029",
+            "status": "",
+            "name": "Banks God",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00030",
+            "status": "",
+            "name": "2 Raw Kutt",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00031",
+            "status": "",
+            "name": "Show Runner",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00032",
+            "status": "",
+            "name": "Milk",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00033",
+            "status": "",
+            "name": "Rivera 89",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00034",
+            "status": "",
+            "name": "Sook Dog",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00035",
+            "status": "",
+            "name": "Southside Will",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00036",
+            "status": "",
+            "name": "Just Reem",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00037",
+            "status": "",
+            "name": "Axe Hollows",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00038",
+            "status": "",
+            "name": "Rose Warrior",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        },
+        {
+            "id": "00039",
+            "status": "",
+            "name": "Sein Me",
+            "age": "",
+            "weight": "",
+            "record": "",
+            "neighborhood": "",
+            "fights": [
+                {
+                    "opponent": "",
+                    "outcome": "",
+                    "method": "",
+                    "event": "",
+                    "time": ""
+                }
+            ]
+        }
+    ]
+}

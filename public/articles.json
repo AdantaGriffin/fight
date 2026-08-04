@@ -1,0 +1,24 @@
+{
+    "articles":[
+        {
+            "id":1,
+            "image":"/images/turnstyle1.png",
+            "type":"announcement",
+            "title":"Hop the TurnStyle",
+            "caption":"NYC's hottst hub, sporting, events, fashion, culture and more",
+            "article":"",
+            "aurthor":"",
+            "date":""
+        },
+
+        {
+            "id":2,
+            "image":"",
+            "title":"",
+            "caption":"",
+            "article":"",
+            "aurthor":"",
+            "date":""
+        }
+    ]
+}

@@ -7,10 +7,11 @@ import FeaturedContent from '../FeaturedContent/featuredContent';
 function Home(){
     return(
         <>
-            <section className={styles.homes}>
+            <section className={styles.home}>
                 <TopStories/>
                 <RecentNext/>
                 <FeaturedContent/>
+                <div className={styles.homeClear}></div>
             </section>
         </>
     )

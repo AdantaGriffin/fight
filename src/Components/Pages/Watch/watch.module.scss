@@ -1,0 +1,41 @@
+.watch{
+    min-height: 100vh;
+    display: grid;
+    gap: 20px;
+
+    .watchLive{
+        border: 5px solid lightgrey;
+        min-height: 500px;
+        display: grid;
+        gap: 5px;
+        h5{
+            color: red;
+        }
+        #live{
+            background-color: #8956fb;
+            color: white;
+        }
+        #youtube{
+            background-color: red;
+        }
+        #instagram{
+            background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+            color: white;
+        }
+        .watchMethod{
+            border: 1px solid black;
+            height: 100%;
+            align-content: center;
+            box-sizing: border-box;
+            font-size: 10vw;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+
+            &:hover{
+                cursor: pointer;
+                background-color: lightgrey;
+            }
+        }
+    }
+}

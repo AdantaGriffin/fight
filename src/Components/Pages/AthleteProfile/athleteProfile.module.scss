@@ -1,0 +1,74 @@
+.athleteProfile{
+    min-height: 100vh;
+    display: grid;
+    gap: 10px;
+    .athleteHero, .media, .record, .biography{
+        min-height: 600px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    .athleteHero{
+        background-color: rgb(0, 56, 132);
+        background-color: black;
+        color: white;
+
+        .heroArticle{
+            border: 1px solid white;
+            width: 300px;
+            height: 300px;
+            position: relative;
+            top: 250px;
+            left: 50px;
+            text-align: center;
+            align-content: center;
+            position: grid;
+
+
+            .heroName{
+                font-size: 60px;
+            }
+        }
+    }
+    .media{}
+    .record{
+        .recordList{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: grid;
+            gap: 20px;
+
+            .recordItem{
+                border-bottom: .5px solid lightgrey;
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+
+                .recordHeader{
+                    text-align: center;
+                }
+                .recordData{
+                    display: flex;
+                    align-items: center;
+
+                    .recordFighterProfiles{
+                        width: 30%;
+                        background-color: lightgrey;
+                        height: 200%;
+                        position: relative;
+                        bottom: 42px;
+                    }
+                    .recordInfo{
+                        width: 50%;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.brand{
+    min-height: 100vh;
+    display: grid;
+    gap: 20px;
+
+    .brandHero{
+        height: 500px;
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        box-sizing: border-box;
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        align-content: center;
+        h2{
+            padding: 0;
+            margin: 0;
+            font-size: 13vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            line-height: 1;
+        }
+    }
+    .brandStore{
+        min-height: 1000px;
+        display: grid;
+        grid-template-columns: 30% 70%;
+
+        .brandNav, .brandList{
+            border: 1px solid black;
+            padding: 0;
+            margin: 0;
+            padding: 50px;
+            gap: 20px;
+        }
+
+        .brandNav{
+            text-align: center;
+        }
+
+        .brandList{
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            justify-content: space-evenly;
+
+            .brandItem{
+                border: 1px solid lightgrey;
+                height: 400px;
+                width: 350px;
+                display: grid;
+                grid-template-rows: 70% 30%;
+                text-align: center;
+
+                .itemImages{
+                    border-bottom: 1px solid lightgrey;
+                    background-color: lightgrey;
+                }
+            }
+        }
+    }
+}

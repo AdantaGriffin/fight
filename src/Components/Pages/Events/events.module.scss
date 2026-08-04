@@ -1,0 +1,68 @@
+.events{
+    height: 2000px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+
+    .eventsHeader{
+        color: white;
+        border: 1px solid white;
+        width: 40%;
+        height: 400px;
+        align-content: center;
+        text-align: center;
+        position: relative;
+        top: 200px;
+
+        .promotion, .eventCaption{
+            font-size: 1.25em;
+        }
+        .fighters{
+            font-size: 2em;
+        }
+        .linkContainer{
+            display: flex;
+            justify-content: space-evenly;
+
+            a{
+                height: 30px;
+                width: 200px;
+                border: 1px solid lightgrey;
+                align-content: center;
+                text-decoration: none;
+                background-color: whitesmoke;
+                color: black
+            }
+        }
+    }
+
+    .eventsPage{
+        border: 1px solid white;
+        background-color: white;
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        top: 150px;
+
+        .eventsUpcomingList{
+            list-style: none;
+            padding: 20px;
+            margin: 0;
+            display: grid;
+            gap: 20px;
+
+            .fightCard{
+                border: 1px solid black;
+                display: grid; 
+                grid-template-columns: repeat(4, 1fr);
+                height: 150px;
+
+                .cardSection{
+                    text-align: center;
+                    align-content: center;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,262 @@
+.shop{
+    min-height: 100vh;
+    display: grid;
+    gap: 20px;
+
+    .shopHeader{
+        background-color: white;
+        position: sticky;
+        top: 65px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        box-sizing: border-box;
+        background-color: white;
+        height: 150px;
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr 1fr;
+        z-index: 99;
+
+        .shopScrollingBanner, .shopMainHeading, .shopNavListContainer, .shopShippingNote{
+        }
+
+        .shopScrollingBanner, .shopShippingNote{
+            align-content: center;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            overflow: hidden;
+            mask-image: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0),
+              rgba(0, 0, 0, 1) 20%,
+              rgba(0, 0, 0, 1) 80%,
+              rgba(0, 0, 0, 0)
+            );
+        }
+        @keyframes scrollLeft {
+          to {
+            left: -200px;
+          }
+        }
+        .scrollingText{
+            width: 900px;
+            position: absolute;
+            left: max(calc(900px * 1), 100%);
+            animation-name: scrollLeft;
+            animation-duration: 20s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            color: red;
+        }
+
+        .shopMainHeading{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            align-content: center;
+            input{
+                width: 60%;
+                height: 100%;
+            }
+        }
+
+        .shopNavListContainer{
+            .shopNavList{
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0;
+                margin: 0;
+                justify-content: space-evenly;
+            }
+        }
+
+        .shopShippingNote{
+            align-content: center;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            overflow: hidden;
+        }
+    }
+
+    .shopFilterFighter{
+        display: flex;
+        align-items: center;
+        height: 80px;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .topPicks, .allTees, .collectibles, .trending, .gear, .tickets, .replica{
+        min-height: 500px;
+        background-color: white;
+    }
+
+    .topPicks{
+        .topPicksText{
+            width: 30%;
+            height: 60%;
+            position: relative;
+            top: 180px;
+            left: 5%;
+            text-align: center;
+            align-content: center;
+            h2{
+                font-size: clamp(2em, 5vw, 3em);
+            }
+            button{
+                background-color: red;
+                color: white;
+            }
+        }
+    }
+
+    .allTees{
+        display: grid;
+        grid-template-rows: 20% 80%;
+        .teesLinks{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .teesList{
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .collectibles{
+        .collectiblesHeading{
+            position: relative;
+            top: 200px;
+            padding: 0 20px;
+
+            button{
+                background-color: red;
+                color: white;
+            }
+        }
+    }
+
+    .trending{
+        .trendingList{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            height: 85%;
+
+            .trendCategory{
+                border: 1px solid lightgrey;
+                width: 250px;
+                display: grid;
+                grid-template-rows: 80% 10% 10%;
+                padding: 5px;
+                background-color: grey;
+            }
+        }
+    }
+
+    .topPicksBranding{
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+
+        .topFighter, .topBrand{
+            border: 1px solid black;
+            width: 47%;
+            display: grid;
+            grid-template-rows: 80% 20%;
+        }
+
+        .topImage{
+            background-color: grey;
+        }
+
+        .topLink{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            padding: 0 20px;
+        }
+
+        button{
+            background-color: red;
+            color: white;
+            height: 80%;
+        }
+    }
+
+    .gear{
+        display: grid;
+        grid-template-rows: 10% 90%;
+
+        .gearList{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-evenly;
+
+            .fighterGear{
+                border: 1px solid black;
+                display: grid;
+                grid-template-rows: 75% 25%;
+                margin: 5px 0;
+            }
+        }
+    }
+
+    .tickets{
+        height: 250px;
+        display: grid;
+        grid-template-columns: 70% 30%;
+
+        .ticketsText, .ticketsButtonContainer{
+            border: 1px solid black;
+            align-content: center;
+            padding: 100px;
+        }
+
+        .ticketsText{
+            .names{
+                font-size: 2em;
+            }
+            .date{
+                font-size: 3em;
+            }
+            .promoter{
+                font-size: 1.5em;
+            }
+        }
+
+        .ticketsButtonContainer{
+            text-align: right;
+
+            button{
+                background-color: red;
+                color: white;
+            }
+        }
+    }
+
+    .official{
+        display: grid;
+        grid-template-rows: 10% 90%;
+
+        .officialStatement{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: flex-end;
+            height: 90%;
+            padding: 0 20px;
+            line-height: 1.9;
+        }
+    }
+}
