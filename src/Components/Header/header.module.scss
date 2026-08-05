@@ -1,7 +1,6 @@
 @media only screen and (max-width: 1000px){
     .header{
-        height: fit-content !important;
-        gap: 30px;
+        height: 100px !important;
     }
     .headerList{
         order: 2;
@@ -13,18 +12,9 @@
     .headerListExpanded{
         height: 100px !important;
     }
-    .headerList{
-        order: 2;
-        flex-wrap: wrap;
-        display: grid !important;
-        width: 150px;
-
-        .dropMenu{
-            position: relative;
-            right: 0;
-        }
-    }
 }
+
+
 .header{
     box-shadow: 1px 1px 10px lightgrey;
     transition: 1s;
