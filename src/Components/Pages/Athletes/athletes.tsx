@@ -1,5 +1,5 @@
 import styles from './athletes.module.scss';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useApi } from '../../Api/api';
 
