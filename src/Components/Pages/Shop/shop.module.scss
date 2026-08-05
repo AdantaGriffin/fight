@@ -6,6 +6,9 @@
         grid-template-columns: 1fr !important;
         gap: 10px;
     }
+    .topPicks, .allTees, .collectibles, .trending, .topPicksBranding, .gear, .tickets, .replica, .official{
+        height: 100vh !important;
+    }
 }
 
 .shop{
