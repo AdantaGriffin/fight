@@ -1,7 +1,9 @@
 import styles from './shop.module.scss';
 import { Link } from 'react-router-dom';
+import { useApi } from '../../Api/api';
 
 function Shop(){
+    const {athletes} = useApi();
     return(
         <>
             <section className={styles.shop}>
@@ -41,9 +43,13 @@ function Shop(){
                 </header>
 
                 <nav className={styles.shopFilterFighter}>
-                    <p>shop all fighters</p>
-                    <ul>
-                        list of fight to be mapped
+                    <p>LOGO</p>
+                    <ul className={styles.shopFilterList}>
+                        {athletes.sort((a,b) => a.name > b.name ? 1 : -1).map(x => (
+                            <li
+                            className={styles.fighter} 
+                            key={x.id}>{x.name}</li>
+                        ))}
                     </ul>
                 </nav>
 

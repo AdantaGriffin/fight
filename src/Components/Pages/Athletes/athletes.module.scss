@@ -1,8 +1,13 @@
+@media only screen and (max-width: 1000px){
+    .athletesList{
+    }
+}
+
 .athletes{
     min-height: 1000px;
     display: grid;
     grid-template-rows: 60px 95%;
-    padding: 200px 20px 20px 20px;
+    padding: 100px 0 0 0 ;
     gap: 10px;
 
     .athletesInput{
@@ -11,23 +16,24 @@
         justify-content: space-around;
         align-items: center;
         position: sticky;
-        top: 70px;
+        top: 90px;
         background-color: whitesmoke;
 
         input{
             height: 30px;
-            width: 400px;
+            width: clamp(200px, 250px, 400px);
             padding: 0 20px;
         }
     }
 
     .athletesList{
+        margin: auto;
+        justify-content: center;
+        width: 80%;
         list-style: none;
         padding: 0;
-        margin: 0;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         gap: 10px;
         a{
             color: black;

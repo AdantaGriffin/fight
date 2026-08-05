@@ -1,43 +1,14 @@
 import styles from './athletes.module.scss';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { useApi } from '../../Api/api';
 
 function Athletes(){
-
-    type Fight = {
-        opponent: string;
-        outcome: string;
-        method: string;
-        event: string;
-        time: string;
-    };
-
-    type Athlete = {
-        id: number;
-        status: string;
-        name: string;
-        age: string;
-        height: string;
-        weight: string;
-        record: string;
-        neighborhood: string;
-        fights: Fight[];
-    };
-
-    const [athletes, setAthletes] = useState<Athlete[]>([]);
-
-    useEffect(() => {
-        async function getAthletes(){
-            const response = await fetch('/athletes.json');
-            const result = await response.json();
-            //console.log(result.athletes);
-            setAthletes(result.athletes);
-        }
-        getAthletes()
-    }, []);
+    const {athletes} = useApi();
     
     const [userInput, setUserInput] = useState("")
     const filterAthlete = athletes.filter(x => x.name.toLowerCase().includes(userInput.toLowerCase()));
+    
     console.log(userInput);
     return(
         <>
@@ -52,7 +23,8 @@ function Athletes(){
                 </div>
 
                 <ul className={styles.athletesList}>
-                    {filterAthlete?.map(x => (
+                    
+                    {filterAthlete?.sort((a,b) => a.name > b.name ? 1 : -1).map(x => (
                         <Link to={`/athletes/${x.id}`}>
                             <li 
                             className={styles.item}
@@ -60,7 +32,7 @@ function Athletes(){
                             >
                                 <img alt="athletes profile image"/>
                                 <div className={styles.athleteText}>
-                                    <p className={styles.nickName}>nick name</p>
+                                    <p className={styles.nickName}>real name</p>
                                     <p className={styles.name}><b>{x.name}</b></p>
                                     <p className={styles.division}>division</p>
                                     <p className={styles.record}>record</p>

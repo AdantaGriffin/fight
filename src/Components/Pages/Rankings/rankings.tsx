@@ -6,6 +6,8 @@ function Rankings(){
             <section className={styles.rankings}>
                 <header>
                     <h2>type - RANKINGS</h2>
+                </header>
+
                     <ul className={styles.rankingsList}>
 
                         <li className={styles.rankingWeight}>
@@ -104,7 +106,6 @@ function Rankings(){
                         </li>
 
                     </ul>
-                </header>
             </section>
         </>
     )

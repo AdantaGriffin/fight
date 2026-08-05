@@ -1,7 +1,28 @@
 import {useState, useEffect, createContext, useContext} from 'react';
 
+    type Fight = {
+        opponent: string;
+        outcome: string;
+        method: string;
+        event: string;
+        time: string;
+    };
+
+    type Athlete = {
+        id: number;
+        status: string;
+        name: string;
+        age: string;
+        height: string;
+        weight: string;
+        record: string;
+        neighborhood: string;
+        fights: Fight[];
+    };
 
     type ApiContextType = {
+        athletes: Athlete[];
+        setAthletes: React.Dispatch<React.SetStateAction<Athlete[]>>;
         header: boolean;
         setHeader: React.Dispatch<React.SetStateAction<boolean>>;
         //projects: Project[];
@@ -21,20 +42,33 @@ export function ApiProvider({ children }: { children: React.ReactNode }){
     //create all useState and functions here to be exported via API Provider 
     const [header, setHeader] = useState<boolean>(false);
     useEffect(() => {
-    function handleScroll() {
-        setHeader(window.scrollY >= 20);
-    }
+        function handleScroll() {
+            setHeader(window.scrollY >= 20);
+        }
 
-    window.addEventListener("scroll", handleScroll);
+        window.addEventListener("scroll", handleScroll);
 
-    return () => {
-        window.removeEventListener("scroll", handleScroll);
-    };
-}, []);
- 
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+
+    // get athletes data
+    const [athletes, setAthletes] = useState<Athlete[]>([]);
+    useEffect(() => {
+        async function getAthletes(){
+            const response = await fetch('/athletes.json');
+            const result = await response.json();
+            //console.log(result.athletes);
+            setAthletes(result.athletes);
+        }
+        getAthletes()
+    }, []);
+    
     return(
         <ApiContext.Provider
-            value={{header, setHeader}}
+            value={{header, setHeader, athletes, setAthletes}}
         >
             {children}
         </ApiContext.Provider>

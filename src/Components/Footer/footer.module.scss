@@ -1,3 +1,15 @@
+@media only screen and (max-width: 1000px){
+    .footer{
+        display: grid !important;
+        grid-template-rows: 40% 60%;
+        justify-content: center;
+
+        .footerNav{
+            width: 100% !important;
+        }
+    }
+}
+
 .footer{
     background-color: rgb(255, 102, 0);
     color: rgb(0, 56, 132);
