@@ -1,0 +1,166 @@
+@media only screen and (max-width: 1000px){
+    .topPicksBranding{
+        grid-template-columns: 1fr !important;
+    }
+}
+
+.shop{
+
+    .shopHeader{
+
+        .shopShippingNote{
+            background-color: red;
+            .scrollingText{}
+        }
+
+        .shopMainHeading{
+            display: grid;
+            grid-template-columns: 25% 75%;
+            padding: 0 5px;
+            gap: 5px;
+        }
+
+        .shopNavListContainer{
+            .shopNavList{
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                li{
+                    width: 100px;
+                    &:hover{
+                        text-decoration: line-through;
+                    }
+                }
+            }
+            
+        }
+
+        .shopScrollingBanner{
+            background-color: red;
+        }
+    }
+
+    .shopFilterFighter{
+        display: flex;
+        align-items: center;
+        overflow-x: scroll;
+
+        .shopFilterList{
+            display: flex;
+            list-style: none;
+            width: fit-content;
+
+            .fighter{
+                border: 1px solid black;
+                width: 100px;
+                text-align: center;
+                align-content: center;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .topPicks, .allTees, .collectibles, .trending, .topPicksBranding, .gear, .tickets, .replica, .official{
+        min-height: 500px;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .topPicks{
+        align-content: center;
+        .topPicksText{
+            width: 70%;
+        }
+    }
+
+    .allTees{
+        display: grid;
+        grid-template-rows: 20% 80%;
+        .teesLinks{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .teesListContainer{
+            border: 1px solid black;
+        }
+    }
+
+    .collectibles{
+        align-content: center;
+        .collectiblesHeading{
+            width: 70%;
+        }
+    }
+
+    .trending{
+        display: grid;
+        grid-template-rows: 15% 85%;
+        .trendingList{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            .trendCategory{
+                border: 1px solid black;
+                width: clamp(150px, 25vw, 200px);
+                display: grid;
+                grid-template-rows: 50% 25% 25%;
+                text-align: center;
+            }
+        }
+    }
+
+    .topPicksBranding{
+        background-color: black;
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4%;
+        align-content: center;
+
+        .topFighter, .topBrand{
+            border: 1px solid white;
+            height: 300px;
+            align-content: center;
+            padding: 20px;
+        }
+    }
+    
+    .gear{
+        display: grid;
+        grid-template-rows: 15% 85%;
+
+        .gearList{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .fighterGear{
+            border: 1px solid lightgrey;
+            display: grid;
+            grid-template-rows: 50% 50%;
+        }
+    }
+
+    .tickets{
+        display: grid;
+        text-align: center;
+        align-content: center;
+    }
+    .official{
+        text-align: center;
+        align-content: center;
+    }
+}

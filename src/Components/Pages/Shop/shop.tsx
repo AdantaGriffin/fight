@@ -57,16 +57,16 @@ function Shop(){
                     <div className={styles.topPicksText}>
                         <h2>Top Pick Tees</h2>
                         <p>Rep Your Hood Anywhere</p>
-                        <button>Shop Now</button>
+                        <Link to="">Shop Now</Link>
                     </div>
                 </section>
 
                 <section className={styles.allTees}>
                     <div className={styles.teesLinks}>
-                        <h3>Shop All Tees</h3>
+                        <h2>Shop All Tees</h2>
                         <Link to="">view all</Link>
                     </div>
-                    <div className={styles.teesList}>
+                    <div className={styles.teesListContainer}>
                         <ul>tees list</ul>
                     </div>
                 </section>
@@ -112,6 +112,7 @@ function Shop(){
                         </li>
 
                     </ul>
+
                 </section>
 
                 <section className={styles.topPicksBranding}>
@@ -184,8 +185,6 @@ function Shop(){
                     </div>
 
                 </section>
-
-                <section className={styles.replica}>belts replicas</section>
 
                 <section className={styles.official}>
                     <h2>Turnstyle Official Gear</h2>
