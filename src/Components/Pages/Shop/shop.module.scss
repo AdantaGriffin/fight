@@ -9,6 +9,12 @@
     .topPicks, .allTees, .collectibles, .trending, .topPicksBranding, .gear, .tickets, .replica, .official{
         height: 100vh !important;
     }
+    .shopScrollingBanner, .shopShippingNote{
+        height: 40px !important;
+        .scrollingText{
+            min-width: 1000px;
+        }
+    }
 }
 
 .shop{
@@ -47,6 +53,35 @@
 
         .shopScrollingBanner{
             background-color: red;
+        }
+
+
+    .shopScrollingBanner, .shopShippingNote{
+            align-content: center;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+            overflow: hidden;
+            height: 25px;
+        }
+        @keyframes scrollLeft {
+          to {
+            left: -850px;
+          }
+        }
+        .scrollingText{
+            position: relative;
+            left: 100%;
+            animation-name: scrollLeft;
+            animation-duration: 20s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            //color: red;
+        }
+        .scrollingText{
+            text-align: center;
         }
     }
 

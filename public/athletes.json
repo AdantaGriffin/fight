@@ -7,7 +7,7 @@
             "age": "",
             "height": "",
             "weight": "",
-            "record": "",
+            "record": "4-3-0",
             "neighborhood": "",
             "fights": [
                 {
@@ -100,17 +100,94 @@
         {
             "id": "00004",
             "status": "",
-            "name": "Ramos",
+            "name": "Team Ramos",
             "age": "",
             "weight": "",
-            "record": "",
+            "record": "11-1-0",
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
+                    "opponent": "Georgi",
+                    "outcome": "win",
+                    "method": "decision",
+                    "event": "Rumble in The Bronx",
+                    "time": ""
+                },
+                {
+                    "opponent": "Loso",
+                    "outcome": "win",
+                    "method": "decision",
+                    "event": "Knuckle Up Club",
+                    "time": ""
+                },
+                {
+                    "opponent": "Mike",
+                    "outcome": "win",
+                    "method": "split",
+                    "event": "",
+                    "time": ""
+                },
+                {
+                    "opponent": "Angel",
+                    "outcome": "win",
+                    "method": "tko",
+                    "event": "",
+                    "time": ""
+                },
+                {
+                    "opponent": "Jay",
+                    "outcome": "loss",
+                    "method": "decision",
+                    "event": "",
+                    "time": ""
+                },
+                {
+                    "opponent": "Jay",
+                    "outcome": "win",
                     "method": "",
                     "event": "",
+                    "time": ""
+                },
+                {
+                    "opponent": "Loso",
+                    "outcome": "win",
+                    "method": "ko",
+                    "event": "",
+                    "time": ""
+                },
+                {
+                    "opponent": "Rose Warrior",
+                    "outcome": "win",
+                    "method": "tko",
+                    "event": "",
+                    "time": ""
+                },
+                {
+                    "opponent": "mustache senpai",
+                    "outcome": "win",
+                    "method": "ko",
+                    "event": "",
+                    "time": ""
+                },
+                {
+                    "opponent": "loso",
+                    "outcome": "win",
+                    "method": "tko",
+                    "event": "",
+                    "time": ""
+                },
+                {
+                    "opponent": "Rah",
+                    "outcome": "win",
+                    "method": "",
+                    "event": "iight bet",
+                    "time": ""
+                },
+                {
+                    "opponent": "fighter",
+                    "outcome": "win",
+                    "method": "",
+                    "event": "aight bet",
                     "time": ""
                 }
             ]

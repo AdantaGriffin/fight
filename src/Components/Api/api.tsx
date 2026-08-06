@@ -1,5 +1,5 @@
 import {useState, useEffect, createContext, useContext} from 'react';
-
+    
     type Fight = {
         opponent: string;
         outcome: string;

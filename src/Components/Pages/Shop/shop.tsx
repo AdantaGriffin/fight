@@ -11,7 +11,7 @@ function Shop(){
                 <header className={styles.shopHeader}>
 
                     <div className={styles.shopShippingNote}>
-                        <p className={styles.scrollingText}>free shipping over 99$</p>
+                        <p className={styles.scrollingText}>free shipping over 99$ -- free shipping over 99$ -- free shipping over 99$</p>
                     </div>
 
                     <div className={styles.shopMainHeading}>

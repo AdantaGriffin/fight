@@ -3,9 +3,10 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function News(){
+    
     type Article = {
             "id":number;
-            "image": string;
+            "image": string[];
             "type": string;
             "title":string;
             "caption":string;
@@ -50,7 +51,7 @@ function News(){
                             <li
                             className={styles.article} 
                             key={x.id}>
-                                <img src={x.image} alt={`${x.title} image`}/>
+                                <img src={x.image[0]} alt={`${x.title} image`}/>
                                 <div className={styles.articleText}>
                                     <p className={styles.type}>{x.type}</p>
                                     <Link to="">
