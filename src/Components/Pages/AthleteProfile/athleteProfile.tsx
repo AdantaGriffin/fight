@@ -32,10 +32,11 @@ function AthleteProfile(){
             const result = await response.json();
             const found = result.athletes.find((x: Athlete) => x.id == id);
             setAthlete(found ?? null);
-            console.log(found)
+            //console.log(found)
         }
         getAthlete()
     }, [id]);
+    console.log(athlete)
     return(
         <>
             <section className={styles.athleteProfile}>
@@ -74,16 +75,16 @@ function AthleteProfile(){
 
                                     <div className={styles.recordInfo}>
                                         <div className={styles.recordOutcome}>
-                                            <p>round</p>
-                                            <p>?</p>
+                                            <p>result</p>
+                                            <p>{x.outcome}</p>
                                         </div>
                                         <div className={styles.recordFightTime}>
-                                            <p>time</p>
-                                            <p>?</p>
+                                            <p>method</p>
+                                            <p>{x.method}</p>
                                         </div>
                                         <div className={styles.recordMethod}>
-                                            <p>method</p>
-                                            <p>?</p>
+                                            <p>event</p>
+                                            <p>{x.event}</p>
                                         </div>
                                     </div>
                                 </div>

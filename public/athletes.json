@@ -85,14 +85,14 @@
             "name": "Eye Shoot Killas",
             "age": "",
             "weight": "",
-            "record": "",
+            "record": "0-1",
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
-                    "event": "",
+                    "opponent": "Really Tony Tho",
+                    "outcome": "loss",
+                    "method": "tko",
+                    "event": "Queens Fight Club",
                     "time": ""
                 }
             ]
@@ -202,10 +202,17 @@
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
-                    "event": "",
+                    "opponent": "Supa Villaine",
+                    "outcome": "loss",
+                    "method": "decision",
+                    "event": "Knuckle Up Club",
+                    "time": ""
+                },
+                {
+                    "opponent": "Cuban Gorilla",
+                    "outcome": "win",
+                    "method": "ko",
+                    "event": "Knuckle Up Club",
                     "time": ""
                 }
             ]
@@ -231,7 +238,7 @@
         {
             "id": "00007",
             "status": "",
-            "name": "GKB",
+            "name": "GBK",
             "age": "",
             "weight": "",
             "record": "",
@@ -292,10 +299,10 @@
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
-                    "event": "",
+                    "opponent": "5am",
+                    "outcome": "loss",
+                    "method": "tko",
+                    "event": "Iight Bet",
                     "time": ""
                 }
             ]
@@ -411,7 +418,7 @@
         {
             "id": "00017",
             "status": "",
-            "name": "Drunken Master",
+            "name": "Drunken Master (Martin)",
             "age": "",
             "weight": "",
             "record": "",
