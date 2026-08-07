@@ -13,14 +13,14 @@
                 {
                     "opponent": "Bones",
                     "outcome": "win",
-                    "method": "knock out",
+                    "method": "KO",
                     "event": "QFC",
                     "time": ""
                 },
                 {
-                    "opponent": "?",
+                    "opponent": "fighter",
                     "outcome": "win",
-                    "method": "decision",
+                    "method": "Dec",
                     "event": "QFC",
                     "time": ""
                 },
@@ -34,28 +34,28 @@
                 {
                     "opponent": "Banks",
                     "outcome": "win",
-                    "method": "tko",
+                    "method": "TKO",
                     "event": "Aight Bet",
                     "time": ""
                 },
                 {
                     "opponent": "Haze Un",
                     "outcome": "win",
-                    "method": "tko",
+                    "method": "TKO",
                     "event": "Aight Bet",
                     "time": ""
                 },
                 {
                     "opponent": "5AM",
                     "outcome": "loss",
-                    "method": "decision",
+                    "method": "Dec",
                     "event": "Aight Bet",
                     "time": ""
                 },
                 {
                     "opponent": "Money Steve",
                     "outcome": "loss",
-                    "method": "tko",
+                    "method": "TKO",
                     "event": "QFC",
                     "time": ""
                 }
@@ -85,13 +85,13 @@
             "name": "Eye Shoot Killas",
             "age": "",
             "weight": "",
-            "record": "0-1",
+            "record": "0-1-0",
             "neighborhood": "",
             "fights": [
                 {
                     "opponent": "Really Tony Tho",
                     "outcome": "loss",
-                    "method": "tko",
+                    "method": "TKO",
                     "event": "Queens Fight Club",
                     "time": ""
                 }
@@ -223,7 +223,7 @@
             "name": "Mike Frost",
             "age": "",
             "weight": "",
-            "record": "",
+            "record": "2-1-0",
             "neighborhood": "",
             "fights": [
                 {
@@ -381,7 +381,7 @@
             "name": "Savage",
             "age": "",
             "weight": "",
-            "record": "",
+            "record": "0-1-0",
             "neighborhood": "",
             "fights": [
                 {
