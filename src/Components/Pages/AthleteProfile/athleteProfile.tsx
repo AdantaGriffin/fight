@@ -16,6 +16,7 @@ function AthleteProfile(){
         status: string;
         name: string;
         age: string;
+        height: string;
         weight: string;
         record: string;
         neighborhood: string;
@@ -94,30 +95,31 @@ function AthleteProfile(){
                         ))}
                     </ul>
                 </section>
+                
                 <section className={styles.biography}>
                     <h5>BIO</h5>
 
                     <div>
                         <h6>status</h6>
-                        <p></p>
+                        <p>{athlete?.status}</p>
                     </div>
 
                     <div>
                         <h6>neighborhood</h6>
-                        <p></p>
+                        <p>{athlete?.neighborhood}</p>
                     </div>
 
                     <div>
                         <div>
                             <h6>height</h6>
-                            <p></p>
+                            <p>{athlete?.height}</p>
                         </div>
                         <div>
-                            <h6>height</h6>
-                            <p></p>
+                            <h6>weight</h6>
+                            <p>{athlete?.weight}</p>
                         </div>
                     </div>
-                    <div>last appearance</div>
+                    <div>last fight: {athlete?.fights[athlete.fights.length - 1]?.event}</div>
                 </section>
             </section>
         </>

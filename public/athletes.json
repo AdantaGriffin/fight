@@ -2,13 +2,13 @@
     "athletes":[
         {
             "id": "00001",
-            "status": "",
+            "status": "active",
             "name": "AyeGee",
-            "age": "",
-            "height": "",
-            "weight": "",
+            "age": "36",
+            "height": "5'8\"",
+            "weight": "165",
             "record": "4-3-0",
-            "neighborhood": "",
+            "neighborhood": "Brooklyn",
             "fights": [
                 {
                     "opponent": "Bones",
@@ -198,7 +198,7 @@
             "name": "Rah King",
             "age": "",
             "weight": "",
-            "record": "",
+            "record": "1-1-0",
             "neighborhood": "",
             "fights": [
                 {
@@ -841,10 +841,17 @@
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
-                    "event": "",
+                    "opponent": "Russian Dave",
+                    "outcome": "loss",
+                    "method": "TKO",
+                    "event": "QFC",
+                    "time": ""
+                },
+                {
+                    "opponent": "Russian Dave",
+                    "outcome": "loss",
+                    "method": "TKO",
+                    "event": "QFC",
                     "time": ""
                 }
             ]
@@ -1608,17 +1615,24 @@
         {
             "id": "00080",
             "status": "",
-            "name": "Haze Un",
+            "name": "Russian Dave",
             "age": "",
             "weight": "",
-            "record": "",
+            "record": "2-0-0",
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
-                    "event": "",
+                    "opponent": "Axe Hollows",
+                    "outcome": "win ",
+                    "method": "TKO",
+                    "event": "QFC",
+                    "time": ""
+                },
+                {
+                    "opponent": "Axe Hollows",
+                    "outcome": "win ",
+                    "method": "TKO",
+                    "event": "QFC",
                     "time": ""
                 }
             ]
