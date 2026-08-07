@@ -43,6 +43,7 @@ function AthleteProfile(){
 
                 <section className={styles.athleteHero}>
                     <article className={styles.heroArticle}>
+                        <p>{id}</p>
                         <p className={styles.heroStatus}>{athlete?.status}</p>
                         <p className={styles.heroName}>{athlete?.name}</p>
                         <p className={styles.heroRecord}>{athlete?.record} (W-L-D)</p>
@@ -87,6 +88,7 @@ function AthleteProfile(){
                                             <p>{x.event}</p>
                                         </div>
                                     </div>
+                                    
                                 </div>
                             </li>
                         ))}

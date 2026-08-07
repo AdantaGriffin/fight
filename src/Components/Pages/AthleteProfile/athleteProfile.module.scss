@@ -22,7 +22,7 @@
             width: 300px;
             height: 300px;
             position: relative;
-            top: 250px;
+            top: 230px;
             left: 50px;
             text-align: center;
             align-content: center;
@@ -52,20 +52,18 @@
                     text-align: center;
                 }
                 .recordData{
-                    display: flex;
-                    align-items: center;
+                    display: grid;
+                    grid-template-columns: 30% 70%;
 
                     .recordFighterProfiles{
-                        width: 30%;
-                        background-color: lightgrey;
-                        height: 200%;
-                        position: relative;
-                        bottom: 42px;
+                        align-content: center;
+                        text-align: center;
+                        background-color: black;
+                        color: white
                     }
                     .recordInfo{
-                        width: 50%;
-                        display: flex;
-                        justify-content: space-evenly;
+                    display: flex;
+                    justify-content: space-around;
                     }
                 }
             }

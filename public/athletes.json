@@ -227,10 +227,24 @@
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
-                    "event": "",
+                    "opponent": "Garbage Bag",
+                    "outcome": "win",
+                    "method": "TKO",
+                    "event": "Aight Bet",
+                    "time": ""
+                },
+                {
+                    "opponent": "IIAM Kev",
+                    "outcome": "win",
+                    "method": "TKO",
+                    "event": "Aight Bet",
+                    "time": ""
+                },
+                {
+                    "opponent": "GBK",
+                    "outcome": "loss",
+                    "method": "TKO",
+                    "event": "Aight Bet",
                     "time": ""
                 }
             ]
@@ -371,10 +385,10 @@
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
-                    "event": "",
+                    "opponent": "Fresh Prince",
+                    "outcome": "loss",
+                    "method": "TKO",
+                    "event": "Aight Bet",
                     "time": ""
                 }
             ]
@@ -443,10 +457,10 @@
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
-                    "event": "",
+                    "opponent": "Eye Shoot Killers",
+                    "outcome": "win",
+                    "method": "TKO",
+                    "event": "QFC",
                     "time": ""
                 }
             ]
@@ -497,10 +511,17 @@
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
+                    "opponent": "Tush",
+                    "outcome": "win",
+                    "method": "Dec",
                     "event": "",
+                    "time": ""
+                },
+                {
+                    "opponent": "Aye Gee",
+                    "outcome": "loss",
+                    "method": "TKO",
+                    "event": "Aight Bet",
                     "time": ""
                 }
             ]
@@ -515,10 +536,10 @@
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
-                    "event": "",
+                    "opponent": "Haze Un",
+                    "outcome": "loss",
+                    "method": "Dec",
+                    "event": "Aight Bet",
                     "time": ""
                 }
             ]
@@ -543,7 +564,7 @@
         },
         {
             "id": "00024",
-            "status": "Prid of Sparta",
+            "status": "Pride of Sparta",
             "name": "",
             "age": "",
             "weight": "",
@@ -569,10 +590,10 @@
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
-                    "event": "",
+                    "opponent": "Aye Gee",
+                    "outcome": "win",
+                    "method": "TKO",
+                    "event": "QFC",
                     "time": ""
                 }
             ]
@@ -605,10 +626,10 @@
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
-                    "event": "",
+                    "opponent": "Supa Villaine",
+                    "outcome": "win",
+                    "method": "TKO",
+                    "event": "Aight Bet",
                     "time": ""
                 }
             ]
@@ -641,10 +662,10 @@
             "neighborhood": "",
             "fights": [
                 {
-                    "opponent": "",
-                    "outcome": "",
-                    "method": "",
-                    "event": "",
+                    "opponent": "Aye Gee",
+                    "outcome": "loss",
+                    "method": "TKO",
+                    "event": "Aight Bet",
                     "time": ""
                 }
             ]
@@ -727,9 +748,44 @@
             "name": "Sook Dog",
             "age": "",
             "weight": "",
-            "record": "",
+            "record": "5-1-0",
             "neighborhood": "",
             "fights": [
+                {
+                    "opponent": "Drunken Master",
+                    "outcome": "loss",
+                    "method": "Dec",
+                    "event": "Aight Bet",
+                    "time": ""
+                },
+                {
+                    "opponent": "Pat 2 Sturdy",
+                    "outcome": "win",
+                    "method": "TKO",
+                    "event": "Aight Bet",
+                    "time": ""
+                },
+                {
+                    "opponent": "Knook",
+                    "outcome": "win",
+                    "method": "TKO",
+                    "event": "Aight Bet",
+                    "time": ""
+                },
+                {
+                    "opponent": "fighter",
+                    "outcome": "win",
+                    "method": "KO",
+                    "event": "Aight Bet",
+                    "time": ""
+                },
+                {
+                    "opponent": "Tybrim",
+                    "outcome": "win",
+                    "method": "Dec",
+                    "event": "Aight Bet",
+                    "time": ""
+                },
                 {
                     "opponent": "",
                     "outcome": "",
