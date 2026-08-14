@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function TopStories(){
+
     type Article = {
             "id":number;
             "image":string;
@@ -19,7 +20,7 @@ function TopStories(){
             const response = await fetch('articles.json');
             const result = await response.json();
             console.log(result.articles);
-            setMainArticle(result.articles[0])
+            setMainArticle(result.articles.pop());
         }
         getArticles()
     }, []);
@@ -30,15 +31,15 @@ function TopStories(){
                 <div className={styles.left}>
 
                     <div className={styles.leftImg}>
-                        <img src={mainArticle?.image} alt="men hoping the turnstyle"/>
+                        {/*<img src={mainArticle?.image} alt="men hoping the turnstyle"/>*/}
                     </div>
 
-                    <div className={styles.leftText}>
+                    <div className={styles.leftText} style={{backgroundImage:"url('/images/knuckleUp89.png')", backgroundSize:"cover", backgroundPosition:"center"}} >
                         <h6>TURNSTYLE 26'</h6>
                         <h2>{mainArticle?.title}</h2>
                         <p>{mainArticle?.caption}</p>
                         <div className={styles.leftButtons}>
-                            <Link to="news" className={styles.checkout}>Check Out</Link>
+                            <Link to="events" className={styles.checkout}>Check Out</Link>
                             <Link to="" className={styles.watch}>WATCH</Link>
                         </div>
                     </div>

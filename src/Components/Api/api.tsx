@@ -1,5 +1,20 @@
 import {useState, useEffect, createContext, useContext} from 'react';
-    
+    type Fights ={
+        fighters: string;
+        outcome: string;
+        method: string;
+        time: string;
+
+    }
+    type Event = {
+        id: number;
+        name: string;
+        caption: string;
+        image: string;
+        date: number;
+        fights: Fights[];
+
+    }
     type Fight = {
         opponent: string;
         outcome: string;
@@ -21,6 +36,8 @@ import {useState, useEffect, createContext, useContext} from 'react';
     };
 
     type ApiContextType = {
+        events: Event[];
+        setEvents: React.Dispatch<React.SetStateAction<Event[]>>;
         athletes: Athlete[];
         setAthletes: React.Dispatch<React.SetStateAction<Athlete[]>>;
         header: boolean;
@@ -65,10 +82,22 @@ export function ApiProvider({ children }: { children: React.ReactNode }){
         }
         getAthletes()
     }, []);
+
+    //get events data
+    const [events, setEvents] = useState<Event[]>([]);
+    useEffect(() => {
+        async function getPastEvents(){
+            const response = await fetch('/pastEvents.json');
+            const result = await response.json();
+            console.log(result.pastEvents)
+            setEvents(result.pastEvents);
+        }
+        getPastEvents();
+    }, []);
     
     return(
         <ApiContext.Provider
-            value={{header, setHeader, athletes, setAthletes}}
+            value={{header, setHeader, athletes, setAthletes, events, setEvents}}
         >
             {children}
         </ApiContext.Provider>

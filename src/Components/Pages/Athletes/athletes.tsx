@@ -6,7 +6,7 @@ import { useApi } from '../../Api/api';
 function Athletes(){
     const {athletes} = useApi();
     
-    const [userInput, setUserInput] = useState("")
+    const [userInput, setUserInput] = useState<string>("");
     const filterAthlete = athletes.filter(x => x.name.toLowerCase().includes(userInput.toLowerCase()));
     
     console.log(userInput);
