@@ -1,6 +1,6 @@
 import styles from './events.module.scss';
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useApi } from '../../Api/api';
 
 function Events(){
